@@ -30,7 +30,7 @@ python manage.py runserver
 --Usage--
 Access the Django admin interface at http://127.0.0.1:8000/admin/ to manage products and orders.
 
-Authentication is required for accessing the API. Obtain JWT tokens by logging in through the token endpoint: http://127.0.0.1:8000/api/token/
+Authentication is required for accessing the API. Obtain JWT tokens by logging in through the token endpoint(POST): http://127.0.0.1:8000/api/token/
 
 Use the provided RESTful API endpoints for CRUD operations on products and orders:
 Products: http://127.0.0.1:8000/api/products/
